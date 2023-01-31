@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_image_with_urls",
+  "info": {
+    "displayName": "Image With Url",
+    "icon": "check-double",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

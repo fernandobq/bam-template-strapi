@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_headline_displays",
+  "info": {
+    "displayName": "Headline Display",
+    "icon": "bomb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "headlineOptions": {
+      "displayName": "Headline Options",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.headline-options"
+    },
+    "bkgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "buttonDarkMode": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "showHeadlineOptions": {
+      "type": "boolean"
+    },
+    "headlineFont": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::font.font"
+    }
+  }
+}

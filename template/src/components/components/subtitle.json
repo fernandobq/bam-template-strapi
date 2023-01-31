@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_subtitles",
+  "info": {
+    "displayName": "Subtitle",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.buttons",
+      "max": 2,
+      "min": 0
+    },
+    "offset": {
+      "type": "enumeration",
+      "enum": [
+        "big",
+        "medium",
+        "small"
+      ],
+      "default": "medium"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

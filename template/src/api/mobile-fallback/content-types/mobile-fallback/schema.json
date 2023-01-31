@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_fallbacks",
+  "info": {
+    "singularName": "mobile-fallback",
+    "pluralName": "mobile-fallbacks",
+    "displayName": "Mobile Fallback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

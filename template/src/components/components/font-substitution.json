@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_font_substitutions",
+  "info": {
+    "displayName": "Font Substitution",
+    "icon": "broadcast-tower",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "font": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::font.font"
+    },
+    "secondFont": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::font.font"
+    },
+    "description": {
+      "type": "string"
+    },
+    "secondDescription": {
+      "type": "string"
+    },
+    "bkgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

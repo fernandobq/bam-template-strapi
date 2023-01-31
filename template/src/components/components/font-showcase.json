@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_font_showcases",
+  "info": {
+    "displayName": "Font Showcase",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": [
+        "Regular",
+        "Demibold",
+        "Bold"
+      ]
+    },
+    "textStyle": {
+      "type": "enumeration",
+      "enum": [
+        "None",
+        "Italic"
+      ],
+      "default": "None"
+    }
+  }
+}

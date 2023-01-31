@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_instructional_cards",
+  "info": {
+    "displayName": "Instructional Cards",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "instructions": {
+      "displayName": "Instructional single card",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.instructional-single-card"
+    },
+    "bgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

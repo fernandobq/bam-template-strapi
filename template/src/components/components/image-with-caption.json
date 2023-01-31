@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_image_with_captions",
+  "info": {
+    "displayName": "Image With Caption",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageCaption": {
+      "type": "string"
+    }
+  }
+}

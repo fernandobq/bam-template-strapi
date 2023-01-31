@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_components_photography_row_images",
+  "info": {
+    "displayName": "Row Image",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "extra-small",
+        "small",
+        "medium",
+        "large",
+        "extra-large",
+        "full"
+      ],
+      "default": "medium"
+    },
+    "growAvailableArea": {
+      "type": "boolean"
+    },
+    "imageRounded": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageCaption": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_do_s_and_don_ts",
+  "info": {
+    "displayName": "Do's And Don'ts",
+    "icon": "flag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "doAndDontSingle": {
+      "displayName": "Do's and Don'ts Single",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.do-s-and-don-ts-single",
+      "max": 3
+    }
+  }
+}

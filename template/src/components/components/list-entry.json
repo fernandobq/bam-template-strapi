@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_list_entries",
+  "info": {
+    "displayName": "List Entry",
+    "icon": "window-minimize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

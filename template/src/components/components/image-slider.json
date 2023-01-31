@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_image_sliders",
+  "info": {
+    "displayName": "Image Slider",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "displayName": "Single Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.single-slide"
+    },
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

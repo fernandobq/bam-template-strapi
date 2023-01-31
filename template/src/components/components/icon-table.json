@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_components_icon_tables",
+  "info": {
+    "displayName": "Icon Table",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconTableHeader": {
+      "displayName": "Icon Table Headers",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-table-headers",
+      "max": 3,
+      "min": 2
+    },
+    "iconTableContent": {
+      "displayName": "Icon Table Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-table-content"
+    },
+    "contentAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "center"
+    },
+    "captionImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.image-with-caption"
+    },
+    "isCapHeight": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

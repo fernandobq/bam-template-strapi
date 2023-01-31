@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "unauthorized_pages",
+  "info": {
+    "singularName": "unauthorized-page",
+    "pluralName": "unauthorized-pages",
+    "displayName": "Unauthorized Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.buttons"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

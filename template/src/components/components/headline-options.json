@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_headline_options",
+  "info": {
+    "displayName": "Headline Options",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": [
+        "regular",
+        "demibold",
+        "bold"
+      ],
+      "required": true,
+      "default": "regular"
+    },
+    "filterLabel": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

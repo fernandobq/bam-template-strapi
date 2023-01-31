@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_wysiwygs",
+  "info": {
+    "displayName": "WYSIWYG",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "downloadableContent": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

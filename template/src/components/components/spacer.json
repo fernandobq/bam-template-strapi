@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_spacers",
+  "info": {
+    "displayName": "Spacer",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "height": {
+      "type": "enumeration",
+      "enum": [
+        "large",
+        "medium",
+        "small",
+        "extra-small"
+      ],
+      "default": "medium",
+      "required": true
+    },
+    "notes": {
+      "type": "richtext"
+    }
+  }
+}

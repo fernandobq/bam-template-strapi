@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_components_image_galleries",
+  "info": {
+    "displayName": "Image Gallery",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "copy": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageCaption": {
+      "type": "string"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "right"
+    },
+    "imageWidth": {
+      "type": "integer",
+      "default": 50,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "descriptionWidthImage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

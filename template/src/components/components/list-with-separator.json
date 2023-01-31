@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_list_with_separators",
+  "info": {
+    "displayName": "List with Separator",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listElement": {
+      "displayName": "List Element",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list-element"
+    },
+    "bgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

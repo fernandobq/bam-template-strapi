@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_equations",
+  "info": {
+    "displayName": "Equation",
+    "icon": "greater-than",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstTermTag": {
+      "type": "string"
+    },
+    "firstTerm": {
+      "type": "string"
+    },
+    "secondTermTag": {
+      "type": "string"
+    },
+    "secondTerm": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    },
+    "operator": {
+      "type": "enumeration",
+      "enum": [
+        "multiplier",
+        "plus",
+        "minus"
+      ],
+      "default": "multiplier",
+      "required": false
+    },
+    "bgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

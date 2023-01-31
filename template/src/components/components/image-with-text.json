@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_components_image_with_texts",
+  "info": {
+    "displayName": "Image with text",
+    "icon": "file-medical-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "right",
+      "required": true
+    },
+    "textVerticalAlign": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "middle",
+        "bottom"
+      ],
+      "default": "top",
+      "required": true
+    },
+    "imageWidth": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "large",
+      "required": true
+    },
+    "contentLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "topSpacing": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "large"
+      ],
+      "default": "large",
+      "required": true
+    }
+  }
+}

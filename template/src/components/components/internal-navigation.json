@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_internal_navigations",
+  "info": {
+    "displayName": "Internal Navigation",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "navigationSlug": {
+      "type": "string"
+    }
+  }
+}

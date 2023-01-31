@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "components.animated-hero",
+        "components.buttons-group",
+        "components.category-nav",
+        "components.characters-display",
+        "components.collage",
+        "components.color-mosaic",
+        "components.color-palette",
+        "components.color-scale",
+        "components.color-showcase",
+        "components.do-and-don-t",
+        "components.do-s-and-don-ts",
+        "components.donts",
+        "components.double-img-desc",
+        "components.download-resources",
+        "components.equation",
+        "components.font-display",
+        "components.font-substitution",
+        "components.full-width-asset",
+        "components.gallery",
+        "components.gradient",
+        "components.guideline-hero",
+        "components.headline-display",
+        "components.horizontal-gallery",
+        "components.icon-box-display",
+        "components.icon-full-width",
+        "components.icon-table",
+        "components.icons-display",
+        "components.image-card-with-background",
+        "components.image-slider",
+        "components.images-grid",
+        "components.internal-navigation",
+        "components.list",
+        "components.list-with-separator",
+        "components.logo-display",
+        "components.logo-switch-with-background-image",
+        "components.main-hero",
+        "components.messaging-examples",
+        "components.spacer",
+        "components.sub-category-nav",
+        "components.subtitle",
+        "components.text-with-image-row",
+        "components.two-column-hero",
+        "components.typography-don-t-switcher",
+        "components.typography-hierarchy",
+        "components.verbal-menu",
+        "components.watchout"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showColorNavigation": {
+      "type": "boolean"
+    },
+    "frontPermission": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::front-permission.front-permission"
+    }
+  }
+}

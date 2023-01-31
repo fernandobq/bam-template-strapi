@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_medium_texts",
+  "info": {
+    "displayName": "Title",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "notes": {
+      "type": "text"
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.buttons"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

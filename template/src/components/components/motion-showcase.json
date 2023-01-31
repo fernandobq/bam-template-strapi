@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_motion_showcases",
+  "info": {
+    "displayName": "Motion Showcase",
+    "icon": "signature"
+  },
+  "options": {},
+  "attributes": {
+    "motions": {
+      "displayName": "Image With Two Descriptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-with-two-descriptions"
+    }
+  }
+}

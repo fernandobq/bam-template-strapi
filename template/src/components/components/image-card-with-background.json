@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_image_card_with_backgrounds",
+  "info": {
+    "displayName": "Image card with Background",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "text"
+    },
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "useDarkText": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

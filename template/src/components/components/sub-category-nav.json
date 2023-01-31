@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_sub_category_navs",
+  "info": {
+    "displayName": "Sub-category nav",
+    "icon": "stream",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.sub-category-item"
+    }
+  }
+}

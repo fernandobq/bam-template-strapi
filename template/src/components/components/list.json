@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "ellipsis-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listEntries": {
+      "displayName": "List Entry",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list-entry"
+    },
+    "showNumbers": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

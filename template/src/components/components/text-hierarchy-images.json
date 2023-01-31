@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_text_hierarchy_images",
+  "info": {
+    "displayName": "Text Hierarchy Images",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "imageContainer": {
+      "displayName": "Text Hierarchy Single Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.text-hierarchy-single-image"
+    }
+  }
+}

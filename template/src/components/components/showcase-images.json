@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_showcase_images",
+  "info": {
+    "displayName": "Showcase Images",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topSpacing": {
+      "type": "boolean",
+      "default": false
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

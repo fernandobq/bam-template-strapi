@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_components_horizontal_galleries",
+  "info": {
+    "displayName": "Horizontal Gallery",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "right"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.photography-row-image"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "customPosition": {
+      "type": "boolean"
+    },
+    "showInTheGrid": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_image_with_two_descriptions",
+  "info": {
+    "displayName": "Image With Two Descriptions",
+    "icon": "ruler-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "leftDescription": {
+      "type": "richtext"
+    },
+    "rightDescription": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_color_mosaics",
+  "info": {
+    "displayName": "Color Mosaic",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "colorTiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.color-tile"
+    },
+    "showInTheGrid": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_color_palettes",
+  "info": {
+    "displayName": "Color Palette",
+    "icon": "bowling-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "groupOfColors": {
+      "displayName": "Group Of Colors",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.group-of-colors"
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "big",
+        "small"
+      ],
+      "default": "big"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

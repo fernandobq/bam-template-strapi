@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_components_colors_grids",
+  "info": {
+    "displayName": "Colors Grid",
+    "icon": "tint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "colors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::color.color"
+    },
+    "gridConfig": {
+      "type": "enumeration",
+      "enum": [
+        "list",
+        "grid"
+      ],
+      "default": "grid"
+    },
+    "layoutType": {
+      "type": "enumeration",
+      "enum": [
+        "default"
+      ],
+      "default": "default"
+    },
+    "downloadableContent": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

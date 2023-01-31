@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fonts",
+  "info": {
+    "singularName": "font",
+    "pluralName": "fonts",
+    "displayName": "Font",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "class": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "quaternary",
+        "quinary"
+      ],
+      "required": false
+    }
+  }
+}

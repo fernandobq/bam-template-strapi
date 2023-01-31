@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_list_elements",
+  "info": {
+    "displayName": "List Element",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

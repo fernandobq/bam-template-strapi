@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_double_img_desc",
+  "info": {
+    "displayName": "Double Image w/Descriptions",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "imageDetailedDescription": {
+      "displayName": "Image Detailed Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-dd",
+      "required": true,
+      "max": 2,
+      "min": 2
+    }
+  }
+}

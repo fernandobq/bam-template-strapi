@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_typography_don_t_switchers",
+  "info": {
+    "displayName": "Typography Don't Switcher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dontType": {
+      "type": "enumeration",
+      "enum": [
+        "Headline",
+        "Body"
+      ],
+      "default": "Headline",
+      "required": true
+    },
+    "successDescription": {
+      "type": "text"
+    },
+    "failDescription": {
+      "type": "text"
+    },
+    "testText": {
+      "type": "richtext"
+    }
+  }
+}

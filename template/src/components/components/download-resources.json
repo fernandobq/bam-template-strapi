@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_download_resources",
+  "info": {
+    "displayName": "Resources Cards",
+    "icon": "cloud-download-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.resources"
+    },
+    "caption": {
+      "type": "richtext"
+    },
+    "bgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "isTwoColumns": {
+      "type": "boolean",
+      "default": false
+    },
+    "isPublic": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

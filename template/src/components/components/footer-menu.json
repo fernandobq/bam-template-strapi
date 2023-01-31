@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_footer_menus",
+  "info": {
+    "displayName": "Footer Menu",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internalLink",
+        "externalLink"
+      ],
+      "default": "internalLink",
+      "required": false
+    }
+  }
+}

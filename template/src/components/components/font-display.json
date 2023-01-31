@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_font_displays",
+  "info": {
+    "displayName": "Font Display",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "font": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::font.font"
+    },
+    "textColorCard": {
+      "displayName": "Color Combination",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.color-combination"
+    },
+    "fontAuthor": {
+      "type": "string"
+    },
+    "fontShowcase": {
+      "displayName": "Font Showcase",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.font-showcase"
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    }
+  }
+}

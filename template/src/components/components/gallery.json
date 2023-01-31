@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_homepage_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showInTheGrid": {
+      "type": "boolean",
+      "default": false
+    },
+    "flow": {
+      "type": "enumeration",
+      "enum": [
+        "Column",
+        "Row"
+      ],
+      "default": "Column"
+    },
+    "galleryImages": {
+      "displayName": "Image Gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-gallery"
+    },
+    "caption": {
+      "type": "text"
+    },
+    "gridSize": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "big",
+        "medium"
+      ],
+      "default": "big"
+    },
+    "galleryPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "right"
+    },
+    "topSpacing": {
+      "type": "enumeration",
+      "enum": [
+        "none ",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "large"
+    },
+    "spaceBetweenImages": {
+      "type": "enumeration",
+      "enum": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "default": "medium"
+    }
+  }
+}

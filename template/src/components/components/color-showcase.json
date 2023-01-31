@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_color_showcases",
+  "info": {
+    "displayName": "Colors Showcase",
+    "icon": "palette",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "colors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::color.color"
+    },
+    "layoutType": {
+      "type": "enumeration",
+      "enum": [
+        "default"
+      ],
+      "default": "default"
+    },
+    "downloadableContent": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    }
+  }
+}

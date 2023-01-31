@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_icon_box_displays",
+  "info": {
+    "displayName": "Icon Box Display",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bkgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

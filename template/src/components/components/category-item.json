@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_category_items",
+  "info": {
+    "displayName": "Category item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "sectionId": {
+      "type": "string"
+    }
+  }
+}

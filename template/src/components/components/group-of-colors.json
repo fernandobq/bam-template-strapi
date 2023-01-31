@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_group_of_colors",
+  "info": {
+    "displayName": "Group Of Colors",
+    "icon": "chart-pie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "extra-large",
+        "large",
+        "medium",
+        "small",
+        "extra-small"
+      ]
+    },
+    "showcaseFormat": {
+      "type": "boolean",
+      "default": false
+    },
+    "showcaseWeight": {
+      "type": "enumeration",
+      "enum": [
+        "regular",
+        "demibold",
+        "bold"
+      ]
+    },
+    "contrast": {
+      "type": "string"
+    }
+  }
+}

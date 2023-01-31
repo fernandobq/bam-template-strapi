@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_icons_displays",
+  "info": {
+    "displayName": "Icons Display",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconsDisplay": {
+      "displayName": "Icon Display Single",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-display-single"
+    }
+  }
+}

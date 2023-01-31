@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_text_displays",
+  "info": {
+    "displayName": "Text Display",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "SubHeading",
+        "Body",
+        "Eyebrow"
+      ],
+      "default": "Body"
+    },
+    "textExample": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

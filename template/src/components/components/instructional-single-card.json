@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_instructional_single_cards",
+  "info": {
+    "displayName": "Instructional single card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "instructionalText": {
+      "type": "text"
+    }
+  }
+}

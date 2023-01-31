@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_message_cards",
+  "info": {
+    "displayName": "Message Card",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

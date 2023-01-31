@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_sub_category_items",
+  "info": {
+    "displayName": "Sub-category item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

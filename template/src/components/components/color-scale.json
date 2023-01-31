@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_color_scales",
+  "info": {
+    "displayName": "Color Scale",
+    "icon": "ellipsis-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "colors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::color.color"
+    }
+  }
+}

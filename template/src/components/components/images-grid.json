@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_images_grids",
+  "info": {
+    "displayName": "Images Grid",
+    "icon": "grip-vertical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "padding": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "small"
+      ]
+    },
+    "showInTheGrid": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "images": {
+      "displayName": "Single Image Grid",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.single-image-grid"
+    }
+  }
+}

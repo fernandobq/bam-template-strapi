@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_components_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "dungeon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "big",
+        "medium",
+        "small"
+      ],
+      "default": "big"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "displayInTheGrid": {
+      "type": "boolean"
+    },
+    "caption": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_do_and_don_t_contents",
+  "info": {
+    "displayName": "Do and Don't Content",
+    "icon": "th-large",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "doThis": {
+      "type": "richtext",
+      "required": true
+    },
+    "dontDoThis": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

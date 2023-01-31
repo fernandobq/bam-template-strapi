@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_image_mosaics",
+  "info": {
+    "displayName": "Image Mosaic",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "displayName": "Image With Url",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-with-url"
+    }
+  }
+}

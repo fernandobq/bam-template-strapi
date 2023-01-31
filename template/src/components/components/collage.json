@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_collages",
+  "info": {
+    "displayName": "Collage",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

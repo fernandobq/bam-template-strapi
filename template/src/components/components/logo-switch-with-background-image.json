@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_logo_switch_with_background_images",
+  "info": {
+    "displayName": "Logo Switch with Background Image",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "correctLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "wrongLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "caption": {
+      "type": "text"
+    }
+  }
+}

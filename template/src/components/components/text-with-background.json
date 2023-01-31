@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_text_with_bg",
+  "info": {
+    "displayName": "Text with Background",
+    "icon": "list-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "isBigVersion": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "kickerText": {
+      "type": "string"
+    },
+    "onlyText": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

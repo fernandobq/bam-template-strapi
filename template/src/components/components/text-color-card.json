@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_text_color_cards",
+  "info": {
+    "displayName": "Text Color Card",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "textColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": [
+        "thin",
+        "regular",
+        "medium",
+        "bold"
+      ],
+      "default": "regular"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_components_photography_rows",
+  "info": {
+    "displayName": "Text With Images Row",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionCopy": {
+      "type": "richtext"
+    },
+    "rowTitle": {
+      "type": "string"
+    },
+    "showInTheGrid": {
+      "type": "boolean",
+      "default": true
+    },
+    "imagesPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "right"
+    },
+    "rowImages": {
+      "displayName": "Photography Row Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.photography-row-image",
+      "min": 1,
+      "max": 3
+    },
+    "rowTitleOffset": {
+      "type": "boolean"
+    },
+    "sectionHeadline": {
+      "type": "string"
+    },
+    "smallerRowTitleSpace": {
+      "type": "boolean",
+      "default": false
+    },
+    "rowDescription": {
+      "type": "richtext"
+    },
+    "isThreeImagesCustom": {
+      "type": "boolean"
+    },
+    "backgroundColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

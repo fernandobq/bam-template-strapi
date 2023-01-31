@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_donts",
+  "info": {
+    "displayName": "Donts",
+    "icon": "calendar-times",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dontSingle": {
+      "displayName": "Dont Single",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.dont-single",
+      "max": 2,
+      "min": 1
+    }
+  }
+}

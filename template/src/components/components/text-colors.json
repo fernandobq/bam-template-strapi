@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_text_colors",
+  "info": {
+    "displayName": "Text Colors",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textColorCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.text-color-card"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sectionId": {
+      "type": "string"
+    },
+    "navTitle": {
+      "type": "string"
+    }
+  }
+}

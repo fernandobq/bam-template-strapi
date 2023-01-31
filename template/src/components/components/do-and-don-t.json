@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_do_and_don_ts",
+  "info": {
+    "displayName": "Do and Don't",
+    "icon": "check-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.do-and-don-t-content"
+    }
+  }
+}

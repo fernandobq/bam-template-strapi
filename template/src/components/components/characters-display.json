@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_characters_displays",
+  "info": {
+    "displayName": "Characters Display",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": [
+        "Regular",
+        "Demibold",
+        "Bold"
+      ],
+      "required": true
+    },
+    "addSeparation": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

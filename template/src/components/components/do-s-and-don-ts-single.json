@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_do_s_and_don_ts_singles",
+  "info": {
+    "displayName": "Do's and Don'ts Single",
+    "icon": "monument",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isDo": {
+      "type": "boolean",
+      "required": false
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bkgColor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "isImage": {
+      "type": "boolean"
+    }
+  }
+}

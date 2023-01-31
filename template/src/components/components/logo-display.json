@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_logo_displays",
+  "info": {
+    "displayName": "Logo Display",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showColorSwitcher": {
+      "type": "boolean"
+    },
+    "logosShowcase": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.logos-showcase"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

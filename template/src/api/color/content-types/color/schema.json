@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "singularName": "color",
+    "pluralName": "colors",
+    "displayName": "Color",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "RGB": {
+      "type": "string"
+    },
+    "PMS": {
+      "type": "string"
+    },
+    "CMYK": {
+      "type": "string"
+    },
+    "Hex": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "className": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Scientific",
+        "Commercial"
+      ],
+      "required": true
+    }
+  }
+}

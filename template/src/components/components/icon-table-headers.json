@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_icon_table_headers",
+  "info": {
+    "displayName": "Icon Table Headers",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

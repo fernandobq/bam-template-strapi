@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_verbal_menus",
+  "info": {
+    "displayName": "Verbal Menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "verbalMenuItem": {
+      "displayName": "Verbal Menu Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.verbal-menu-item"
+    }
+  }
+}

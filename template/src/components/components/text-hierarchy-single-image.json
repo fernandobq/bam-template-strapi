@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_text_hierarchy_single_images",
+  "info": {
+    "displayName": "Text Hierarchy Single Image",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
