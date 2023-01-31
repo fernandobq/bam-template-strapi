@@ -1,9 +1,7 @@
 {
     "package": {
         "@strapi/plugin-color-picker": "4.5.2",
-        "@strapi/plugin-i18n": "4.4.5",
         "@strapi/plugin-seo": "1.7.7",
-        "@strapi/plugin-users-permissions": "4.4.5",
         "@strapi/provider-email-sendgrid": "4.5.2",
         "strapi-plugin-menus": "1.1.0",
         "strapi-provider-upload-dos": "4.0.5",
