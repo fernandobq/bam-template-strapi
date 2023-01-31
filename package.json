@@ -1,0 +1,24 @@
+{
+  "name": "bam-template",
+  "version": "1.0.0",
+  "description": "BAM CMS template",
+  "main": "template.js",
+  "keywords": [
+    "strapi",
+    "template",
+    "BAM"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandobq/bam-template-strapi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandobq/bam-template-strapi/issues"
+  },
+  "homepage": "https://github.com/fernandobq/bam-template-strapi#readme"
+}
